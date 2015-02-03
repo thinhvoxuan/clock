@@ -2,7 +2,8 @@
 	<head>
 		<link rel="stylesheet" href="compiled/flipclock.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="compiled/flipclock.js"></script>		
+		<script src="compiled/flipclock.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
 	<div style="width:50%">
@@ -23,10 +24,8 @@
 	
 	<script type="text/javascript">
 		var clock;
-
 		// var url = "http://192.168.33.10:8000/";
-		var url = "http://localhost:8000";
-
+		var url = "http://thinhvoxuan.me:8000";
 		$(document).ready(function() {
 			//clock = $('.clock').FlipClock(val, {
 			clock = $('.clock').FlipClock(10000, {
